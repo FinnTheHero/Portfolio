@@ -1,37 +1,51 @@
 export interface IMetaHead {
-  title: string;
-  description: string;
-  ogImageUrl: string;
+	title: string;
+	description: string;
+	ogImageUrl: string;
 }
 
 export interface IHeroProps {
-  name: string;
-  about: string;
+	name: string;
+	about: string;
 }
 
 export interface IExperience {
-  name: string;
-  location: string;
-  startDate: string;
-  endDate: string;
-  description: string[];
+	name: string;
+	location: string;
+	startDate: string;
+	endDate: string;
+	description: string[];
 }
 export interface IExperiences {
-  title: string;
-  details: IExperience[];
+	title: string;
+	details: IExperience[];
 }
 
 export interface IProject {
-  title: string;
-  isFeatured: boolean;
-  thumbnail: string;
-  githubUrl: string;
-  liveUrl: string;
+	title: string;
+	isFeatured: boolean;
+	thumbnail: string;
+	githubUrl: string;
+	liveUrl: string;
 }
 export interface IProjects {
-  projects: IProject[];
+	projects: IProject[];
 }
 
 export interface IProjectDetails {
-  projectDetail: IProject;
+	projectDetail: IProject;
+}
+
+export interface IFramework {
+	name: string;
+}
+
+export interface ILanguage {
+	name: string;
+}
+
+export interface IFrameworks {
+	title: string;
+	frameworks: IFramework[];
+	languages: ILanguage[];
 }
