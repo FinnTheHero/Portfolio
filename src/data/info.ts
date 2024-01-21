@@ -1,5 +1,5 @@
 export const info = {
-	baseUrl: "https://astro-portfolio-uzair.vercel.app",
+	baseUrl: "https://aleksandre-nozadze.vercel.app/",
 	name: "Aleksandre Nozadze",
 	jobDescription: "Student",
 	about: `
