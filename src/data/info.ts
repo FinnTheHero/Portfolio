@@ -3,7 +3,7 @@ export const info = {
 	name: "Aleksandre Nozadze",
 	jobDescription: "Student",
 	about: `
-	I'm Aleksandre Nozadze, a computer science student based in Tbilisi, Georgia.
+	A computer science student based in Tbilisi, Georgia.
 	I am passionate about coding and creating innovative solutions that make an impact. Currently pursuing my degree at Ilia State University. I have a solid foundation in computer science and a keen interest in various programming languages and frameworks.
 	`,
 
