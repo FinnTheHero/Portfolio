@@ -9,12 +9,12 @@ export const info = {
 
 	experience: [
 		{
-			name: "SkyHi LLC",
+			name: "SkyHi",
 			location: "Tbilisi, Georgia",
 			startDate: "07/2023",
 			endDate: "10/2023",
 			description: [
-				"- high-intensity IT training program.",
+				"- High-intensity IT training program.",
 				"✓ Got Certified as an IT.",
 			],
 		},
