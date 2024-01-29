@@ -28,9 +28,17 @@ const featureProjects = info.projects.reduce((accumulator, project) => {
 	</head>
 	<body>
 		<Layout>
+			<div class="flex justify-between items-center flex-wrap">
+				<div class="dark:text-light text-xl font-semibold mt-[117px]">
+					My Resume - 
+					<a class="dark:text-light text-xl font-semibold" href="https://drive.google.com/file/d/1Bh1voln4g7aOZ1b0uV_ltbH6A-mXmDb2/view?usp=sharing" target="_blank">Eng</a>
+					|
+					<a  class="dark:text-light text-xl font-semibold" href="https://drive.google.com/file/d/1DazOJW23NcU4H0G6O-fLes3r7VK6Bf5C/view?usp=sharing" target="_blank">Geo</a>
+				</div>
+			</div>
 			<Hero name={info.name} about={info.about} />
-			<Experience title={"EDUCATION"} details={info.education} />
 			<Experience title={"EXPERIENCE"} details={info.experience} />
+			<Experience title={"EDUCATION"} details={info.education} />
 			<Frameworks title={"WORKED WITH"} frameworks={info.frameworks} languages={info.languages}/>
 			<section>
 				<h2 class="w-[15rem] dark:text-light mt-16">PROJECTS</h2>
